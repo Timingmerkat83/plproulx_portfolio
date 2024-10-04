@@ -50,15 +50,10 @@
       "tags": ["Java", "Android", "Alarm Manager", "VIT"]
     },
     {
-      "title": "Secure Chat App",
-      "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-      "links": [
-        {
-          "text": "GitHub",
-          "href": "https://github.com/mayankagarwal09/SecureChatApp"
-        }
-      ],
-      "tags": ["Java", "Android", "Firebase", "RSA"]
+      "image": "images/projects/Logo timFinal.png",
+      "title": "Concours Logo de programme TIM",
+      "bodyText": "- Concours conception de logo du programme Technique d'intégration multimédia\n - Logo gagnant\n",
+      "tags": ["Illustrator", "Adobe"]
     },
     {
       "title": "MVVM Sample App",
