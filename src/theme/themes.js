@@ -22,24 +22,24 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  background: '#121212',
-  color: '#eee',
-  accentColor: '#3D84C6',
+  background: '#021930',
+  color: '#057ffa',
+  accentColor: '#700248',
   chronoTheme: {
     cardBgColor: '#1B1B1B',
     cardForeColor: '#eee',
-    titleColor: 'black',
+    titleColor: 'yellow',
   },
   timelineLineColor: '#444',
   cardBackground: '#060606',
   cardFooterBackground: '#181818',
-  cardBorderColor: '#ffffff20',
+  cardBorderColor: '#2b0d7a',
   navbarTheme: {
-    linkColor: '#dedede',
+    linkColor: 'black',
     linkHoverColor: '#fefefe',
     linkActiveColor: '#fefefe',
   },
   bsPrimaryVariant: 'dark',
   bsSecondaryVariant: 'light',
-  socialIconBgColor: '#fefefe',
+  socialIconBgColor: 'green',
 };
