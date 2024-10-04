@@ -1,63 +1,80 @@
 {
-    "intro": "I love to learn new things and experiment with new technologies.\nThese are some of the major languages, technologies, tools and platforms I have worked with:",
-    "skills": [{
-     
-            "title": "Languages & Databases",
-            "items" : [
-     
-                {
-                    "icon": "images/skills/java.png",
-                    "title": "Java"
-                },
-                {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
-                },
-                {
-                    "icon": "images/skills/js.png",
-                    "title": "JavaScript"
-                },
-                {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
-                },
-                {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
-                }
-        ]},
+  "intro": "### J’aime apprendre de nouvelles choses et expérimenter avec de nouvelles technologies. \nVoici quelques-uns des _principaux langages_, outils et plates-formes avec lesquels j’ai travaillé :",
+  "skills": [
+    {
+      "title": "Languages & Databases",
+      "items": [
         {
-            "title": "Frameworks & Technologies",
-            "items" : [
-                {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
-                },
-                {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
-                },
-                {
-                    "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
-                }
-            ]
+          "icon": "images/skills/html.png",
+          "title": "HTML"
         },
         {
-            "title" : "Tools & Platforms",
-            "items": [
-                {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
-                },
-                {
-                    "icon": "images/skills/git.png",
-                    "title": "Git"
-                },
-                {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
-                }
-            ]
+          "icon": "images/skills/css.png",
+          "title": "CSS"
+        },
+        {
+          "icon": "images/skills/js.png",
+          "title": "JavaScript"
+        },
+        {
+          "icon": "images/skills/sass.svg",
+          "title": "SCSS"
+        },
+        {
+          "icon": "images/skills/c-plus-plus.svg",
+          "title": "C++"
+        },
+        {
+          "icon": "images/skills/mysql.png",
+          "title": "MySQL"
+        }
+      ]
+    },
+    {
+      "title": "Tools & Platforms",
+      "items": [
+        {
+          "icon": "images/skills/git.png",
+          "title": "Git"
+        },
+        {
+          "icon": "images/skills/vscode.png",
+          "title": "Visual \nStudio Code -",
+          "href": "https://code.visualstudio.com/Download"
+        },
+        {
+          "icon": "images/skills/illustrator.png",
+          "title": "- Illustrator -"
+        },
+        {
+          "icon": "images/skills/photoshop.png",
+          "title": "- Photoshop -"
+        },
+        {
+          "icon": "images/skills/premiere.png",
+          "title": "- Premiere -"
+        },
+        {
+          "icon": "images/skills/aftereffects.png",
+          "title": "- After Effects -"
+        },
+        {
+          "icon": "images/skills/TouchDesigner.png",
+          "title": "- Touch\n Designer -"
+        },
+        {
+          "icon": "images/skills/davinci.png",
+          "title": "- Davinci \n Resolve -"
+        },
+        {
+          "icon": "images/skills/unity.png",
+          "title": "Unity"
+        },
+        {
+          "icon": "images/skills/maya.png",
+          "title": "MAYA"
+        }
+      ]
     }
-]}
+  ]
+}

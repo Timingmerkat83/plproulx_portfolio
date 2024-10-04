@@ -1,21 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/images/logo.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Portfolio Website"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/logo.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/images/LogoPL.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Portfolio Website" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/images/LogoPL.png" />
+  <link rel="stylesheet" href="/src/css/style.css">
+  <!-- manifest.json provides metadata used when your web app is installed on a user's
+    mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/ -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +21,236 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>Portfolio Website</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>Pierre-Luc Proulx Portfolio Website</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div class="App">
+      <div class="MainApp">
+        <nav class="navbar-custom navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+          <div class="container"><a href="/" class="navbar-brand"><img src="images/LogoPL.png"
+                class="d-inline-block align-top" alt="main logo" style="height: 45px; width: 50px;"></a><button
+              aria-controls="responsive-navbar-nav" type="button" aria-label="Toggle navigation"
+              class="navbar-toggler collapsed"><span class="navbar-toggler-icon"></span></button>
+            <div class="navbar-collapse collapse" id="responsive-navbar-nav">
+              <div class="me-auto navbar-nav"></div>
+              <div class="navbar-nav"><a aria-current="page" class="sc-gEvEer itibva navbar__link navbar__link--active"
+                  theme="[object Object]" href="/">Accueil</a><a class="sc-gEvEer itibva navbar__link"
+                  theme="[object Object]" href="/about">Un peu sur moi</a><a class="sc-gEvEer itibva navbar__link"
+                  theme="[object Object]" href="/skills">Compétences</a><a class="sc-gEvEer itibva navbar__link"
+                  theme="[object Object]" href="/education">Éducation</a><a class="sc-gEvEer itibva navbar__link"
+                  theme="[object Object]" href="/experience">Expérience</a><a class="sc-gEvEer itibva navbar__link"
+                  theme="[object Object]" href="/projects">Projets</a><a
+                  href="https://drive.google.com/file/d/1pxmDFmQ243p4ravfpPyy6uUchRYI4w1_/view?usp=sharing"
+                  target="_blank" rel="noopener noreferrer" class="sc-aXZVg fYLvuZ navbar__link">CV</a></div>
+              <div style="margin-bottom: 8px;"><button aria-hidden="true"
+                  style="cursor: pointer; overflow: hidden; width: 50px; height: 23.5px; appearance: none; border: none; background-color: transparent; padding: 0px;">
+                  <div
+                    style="display: flex; align-items: center; justify-content: center; margin-top: -28.75px; margin-left: -16px; width: 82.5px; height: 82.5px;">
+                    <div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 500 500" width="500" height="500" preserveAspectRatio="xMidYMid meet"
+                        style="width: 100%; height: 100%; transform: translate3d(0px, 0px, 0px); content-visibility: visible;">
+                        <defs>
+                          <clipPath id="__lottie_element_2">
+                            <rect width="500" height="500" x="0" y="0"></rect>
+                          </clipPath>
+                        </defs>
+                        <g clip-path="url(#__lottie_element_2)">
+                          <g transform="matrix(1,0,0,1,250,250)" opacity="1" style="display: block;">
+                            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                              <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                                stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="18.8" d="M0 0"></path>
+                            </g>
+                          </g>
+                          <g transform="matrix(1,0,0,1,250,250)" opacity="1" style="display: block;">
+                            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                              <path fill="rgb(15,21,66)" fill-opacity="1"
+                                d=" M150,0 C150,0 150,0 150,0 C150,38.632999420166016 118.63300323486328,70 80,70 C80,70 -80,70 -80,70 C-118.63300323486328,70 -150,38.632999420166016 -150,0 C-150,0 -150,0 -150,0 C-150,-38.632999420166016 -118.63300323486328,-70 -80,-70 C-80,-70 80,-70 80,-70 C118.63300323486328,-70 150,-38.632999420166016 150,0z">
+                              </path>
+                            </g>
+                          </g>
+                          <g transform="matrix(1,0,0,1,250,217.15399169921875)" opacity="0.15" style="display: block;">
+                            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                              <path fill="rgb(0,0,0)" fill-opacity="1"
+                                d=" M82.2229995727539,-37.15399932861328 C82.2229995727539,-37.15399932861328 -82.2229995727539,-37.15399932861328 -82.2229995727539,-37.15399932861328 C-119.65499877929688,-37.15399932861328 -150,-6.809000015258789 -150,30.62299919128418 C-150,30.62299919128418 -150,35.069000244140625 -150,35.069000244140625 C-150,35.768001556396484 -149.96800231933594,36.459999084472656 -149.94700622558594,37.15399932861328 C-148.8419952392578,0.6890000104904175 -118.95600128173828,-28.538000106811523 -82.2229995727539,-28.538000106811523 C-82.2229995727539,-28.538000106811523 82.2229995727539,-28.538000106811523 82.2229995727539,-28.538000106811523 C118.95600128173828,-28.538000106811523 148.8419952392578,0.6890000104904175 149.94700622558594,37.15399932861328 C149.96800231933594,36.459999084472656 150,35.768001556396484 150,35.069000244140625 C150,35.069000244140625 150,30.62299919128418 150,30.62299919128418 C150,-6.809000015258789 119.65499877929688,-37.15399932861328 82.2229995727539,-37.15399932861328z">
+                              </path>
+                              <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                                stroke="rgb(238,253,255)" stroke-opacity="1" stroke-width="1" d="M0 0"></path>
+                            </g>
+                          </g>
+                          <g transform="matrix(1,0,0,1,330.5,265)" opacity="1" style="display: none;">
+                            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                              <path fill="rgb(255,255,255)" fill-opacity="1"
+                                d=" M16.075000762939453,-1.3669999837875366 C15.045000076293945,-7.395999908447266 9.79800033569336,-11.986000061035156 3.4760000705718994,-11.986000061035156 C3.4760000705718994,-11.986000061035156 3.4760000705718994,-11.986000061035156 3.4760000705718994,-11.986000061035156 C-2.8320000171661377,-11.986000061035156 -8.069999694824219,-7.414999961853027 -9.116000175476074,-1.406000018119812 C-9.116000175476074,-1.406000018119812 -19.304000854492188,-1.406000018119812 -19.304000854492188,-1.406000018119812 C-26.040000915527344,-1.406000018119812 -31.5,4.053999900817871 -31.5,10.789999961853027 C-31.5,10.789999961853027 -31.5,10.789999961853027 -31.5,10.789999961853027 C-31.5,17.525999069213867 -26.040000915527344,22.986000061035156 -19.304000854492188,22.986000061035156 C-19.304000854492188,22.986000061035156 15.303999900817871,22.986000061035156 15.303999900817871,22.986000061035156 C22.040000915527344,22.986000061035156 27.5,17.525999069213867 27.5,10.789999961853027 C27.5,10.789999961853027 27.5,10.789999961853027 27.5,10.789999961853027 C27.5,4.314000129699707 22.450000762939453,-0.9679999947547913 16.075000762939453,-1.3669999837875366z">
+                              </path>
+                              <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                                stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="32" d="M0 0"></path>
+                            </g>
+                          </g>
+                          <g transform="matrix(1,0,0,1,275.5,220)" opacity="1" style="display: none;">
+                            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                              <path fill="rgb(255,255,255)" fill-opacity="1"
+                                d=" M11.88700008392334,-4.515999794006348 C11.210000038146973,-8.480999946594238 7.758999824523926,-11.5 3.6010000705718994,-11.5 C3.6010000705718994,-11.5 3.6010000705718994,-11.5 3.6010000705718994,-11.5 C-0.5479999780654907,-11.5 -3.992000102996826,-8.494000434875488 -4.679999828338623,-4.541999816894531 C-4.679999828338623,-4.541999816894531 -11.380000114440918,-4.541999816894531 -11.380000114440918,-4.541999816894531 C-15.8100004196167,-4.541999816894531 -19.400999069213867,-0.9509999752044678 -19.400999069213867,3.4790000915527344 C-19.400999069213867,3.4790000915527344 -19.400999069213867,3.4790000915527344 -19.400999069213867,3.4790000915527344 C-19.400999069213867,7.908999919891357 -15.8100004196167,11.5 -11.380000114440918,11.5 C-11.380000114440918,11.5 11.380000114440918,11.5 11.380000114440918,11.5 C15.8100004196167,11.5 19.400999069213867,7.908999919891357 19.400999069213867,3.4790000915527344 C19.400999069213867,3.4790000915527344 19.400999069213867,3.4790000915527344 19.400999069213867,3.4790000915527344 C19.400999069213867,-0.7799999713897705 16.079999923706055,-4.252999782562256 11.88700008392334,-4.515999794006348z">
+                              </path>
+                              <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                                stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="32" d="M0 0"></path>
+                            </g>
+                          </g>
+                          <g transform="matrix(1,0,0,1,184.94607543945312,212.75)" opacity="1" style="display: block;">
+                            <g opacity="1" transform="matrix(1,0,0,1,0,0)">
+                              <path fill="rgb(238,253,255)" fill-opacity="1"
+                                d=" M0,-4 C2.2076001167297363,-4 4,-2.2076001167297363 4,0 C4,2.2076001167297363 2.2076001167297363,4 0,4 C-2.2076001167297363,4 -4,2.2076001167297363 -4,0 C-4,-2.2076001167297363 -2.2076001167297363,-4 0,-4z">
+                              </path>
+                              <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                                stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="32" d="M0 0"></path>
+                            </g>
+                            <g opacity="1" transform="matrix(1,0,0,1,47.5,45)">
+                              <path fill="rgb(238,253,255)" fill-opacity="1"
+                                d=" M0,-3 C1.6556999683380127,-3 3,-1.6556999683380127 3,0 C3,1.6556999683380127 1.6556999683380127,3 0,3 C-1.6556999683380127,3 -3,1.6556999683380127 -3,0 C-3,-1.6556999683380127 -1.6556999683380127,-3 0,-3z">
+                              </path>
+                              <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                                stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="32" d="M0 0"></path>
+                            </g>
+                            <g opacity="1" transform="matrix(1,0,0,1,-32.5,65)">
+                              <path fill="rgb(238,253,255)" fill-opacity="1"
+                                d=" M0,-5 C2.759500026702881,-5 5,-2.759500026702881 5,0 C5,2.759500026702881 2.759500026702881,5 0,5 C-2.759500026702881,5 -5,2.759500026702881 -5,0 C-5,-2.759500026702881 -2.759500026702881,-5 0,-5z">
+                              </path>
+                              <path stroke-linecap="butt" stroke-linejoin="miter" fill-opacity="0" stroke-miterlimit="4"
+                                stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="32" d="M0 0"></path>
+                            </g>
+                          </g>
+                          <g transform="matrix(0.9997321367263794,-0.02314484491944313,0.02314484491944313,0.9997321367263794,267.1632385253906,191.16061401367188)"
+                            opacity="1" style="display: block;">
+                            <g opacity="1" transform="matrix(1,0,0,1,60.25,60.25)">
+                              <path fill="rgb(238,252,254)" fill-opacity="1"
+                                d=" M60,0 C60,33.137001037597656 33.137001037597656,60 0,60 C-33.137001037597656,60 -60,33.137001037597656 -60,0 C-60,-33.137001037597656 -33.137001037597656,-60 0,-60 C33.137001037597656,-60 60,-33.137001037597656 60,0z">
+                              </path>
+                            </g>
+                            <g opacity="1" transform="matrix(1,0,0,1,80.1709976196289,53.448001861572266)">
+                              <path fill="rgb(220,244,246)" fill-opacity="1"
+                                d=" M-43.15299987792969,29.141000747680664 C-43.15299987792969,35.02799987792969 -47.92599868774414,39.80099868774414 -53.8129997253418,39.80099868774414 C-59.70100021362305,39.80099868774414 -64.4729995727539,35.02799987792969 -64.4729995727539,29.141000747680664 C-64.4729995727539,23.253000259399414 -59.70100021362305,18.481000900268555 -53.8129997253418,18.481000900268555 C-47.92599868774414,18.481000900268555 -43.15299987792969,23.253000259399414 -43.15299987792969,29.141000747680664z M10.449000358581543,7.038000106811523 C16.78700065612793,3.4079999923706055 21.06100082397461,-3.4179999828338623 21.06100082397461,-11.246000289916992 C21.06100082397461,-22.878000259399414 11.631999969482422,-32.30699920654297 0,-32.30699920654297 C-11.631999969482422,-32.30699920654297 -21.06100082397461,-22.878000259399414 -21.06100082397461,-11.246000289916992 C-21.06100082397461,-0.5669999718666077 -13.112000465393066,8.24899959564209 -2.809999942779541,9.623000144958496 C-5.434000015258789,12.008999824523926 -7.0920000076293945,15.439000129699707 -7.0920000076293945,19.266000747680664 C-7.0920000076293945,26.468000411987305 -1.253000020980835,32.30699920654297 5.948999881744385,32.30699920654297 C13.152000427246094,32.30699920654297 18.990999221801758,26.468000411987305 18.990999221801758,19.266000747680664 C18.990999221801758,13.647000312805176 15.430000305175781,8.871999740600586 10.449000358581543,7.038000106811523z">
+                              </path>
+                            </g>
+                            <g opacity="1" transform="matrix(1,0,0,1,86.84500122070312,53.361000061035156)">
+                              <path fill="rgb(200,240,246)" fill-opacity="1"
+                                d=" M-57.25199890136719,37.67399978637695 C-63.138999938964844,37.67399978637695 -67.91200256347656,32.902000427246094 -67.91200256347656,27.013999938964844 C-67.91200256347656,24.072999954223633 -66.72100067138672,21.40999984741211 -64.79399871826172,19.481000900268555 C-68.53399658203125,21.136999130249023 -71.14700317382812,24.874000549316406 -71.14700317382812,29.22800064086914 C-71.14700317382812,35.1150016784668 -66.375,39.88800048828125 -60.48699951171875,39.88800048828125 C-57.54100036621094,39.88800048828125 -54.874000549316406,38.69300079345703 -52.944000244140625,36.7599983215332 C-54.26300048828125,37.34400177001953 -55.71799850463867,37.67399978637695 -57.25199890136719,37.67399978637695z M3.7750000953674316,7.124000072479248 C10.11299991607666,3.49399995803833 14.387999534606934,-3.3320000171661377 14.387999534606934,-11.15999984741211 C14.387999534606934,-22.79199981689453 4.958000183105469,-32.22100067138672 -6.673999786376953,-32.22100067138672 C-9.39799976348877,-32.22100067138672 -11.998000144958496,-31.697999954223633 -14.387999534606934,-30.756999969482422 C-12.996999740600586,-31.04599952697754 -11.555999755859375,-31.200000762939453 -10.079000473022461,-31.200000762939453 C1.5529999732971191,-31.200000762939453 10.982999801635742,-21.768999099731445 10.982999801635742,-10.13700008392334 C10.982999801635742,-2.309000015258789 6.708000183105469,4.515999794006348 0.3700000047683716,8.145999908447266 C5.35099983215332,9.979999542236328 8.91100025177002,14.755999565124512 8.91100025177002,20.374000549316406 C8.91100025177002,25.636999130249023 5.7870001792907715,30.160999298095703 1.2970000505447388,32.22100067138672 C7.5370001792907715,31.24799919128418 12.317000389099121,25.865999221801758 12.317000389099121,19.35300064086914 C12.317000389099121,13.734000205993652 8.755999565124512,8.958000183105469 3.7750000953674316,7.124000072479248z">
+                              </path>
+                            </g>
+                          </g>
+                          <g style="display: none;">
+                            <g>
+                              <path stroke-linecap="round" stroke-linejoin="round" fill-opacity="0"></path>
+                            </g>
+                          </g>
+                        </g>
+                      </svg></div>
+                  </div>
+                </button></div>
+            </div>
+          </div>
+        </nav>
+        <main class="main">
+          <div class="react-reveal"
+            style="height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; animation-fill-mode: both; animation-duration: 1000ms; animation-delay: 0ms; animation-iteration-count: 1; opacity: 1; animation-name: react-reveal-988796825255472-1;">
+            <h1 style="font-size: 5em;">Pierre-Luc Proulx</h1>
+            <div style="flex-direction: row;">
+              <h2 style="display: inline-block;">I'm&nbsp;</h2>
+              <div class="Typewriter" data-testid="typewriter-wrapper"><span class="Typewriter__wrapper">un animateur
+                  2D</span><span class="Typewriter__cursor">|</span></div>
+            </div>
+            <div class="social"><a target="_blank" rel="noopener"
+                href="https://www.linkedin.com/in/pierre-luc-proulx-a0a6b01a2/" class="social-icon"
+                aria-label="linkedin"
+                style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle; margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                <div class="social-container"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"><svg class="social-svg"
+                    viewBox="0 0 64 64"
+                    style="border-radius: 50%; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; fill-rule: evenodd;">
+                    <g class="social-svg-background" style="transition: fill 170ms ease-in-out; fill: transparent;">
+                      <circle cx="32" cy="32" r="31"></circle>
+                    </g>
+                    <g class="social-svg-icon" style="transition: fill 170ms ease-in-out; fill: transparent;">
+                      <path
+                        d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z">
+                      </path>
+                    </g>
+                    <g class="social-svg-mask" style="transition: fill 170ms ease-in-out; fill: rgb(254, 254, 254);">
+                      <path
+                        d="M0,0v64h64V0H0z M25.8,44h-5.4V26.6h5.4V44z M23.1,24.3c-1.7,0-3.1-1.4-3.1-3.1c0-1.7,1.4-3.1,3.1-3.1 c1.7,0,3.1,1.4,3.1,3.1C26.2,22.9,24.8,24.3,23.1,24.3z M46,44h-5.4v-8.4c0-2,0-4.6-2.8-4.6c-2.8,0-3.2,2.2-3.2,4.5V44h-5.4V26.6 h5.2V29h0.1c0.7-1.4,2.5-2.8,5.1-2.8c5.5,0,6.5,3.6,6.5,8.3V44z">
+                      </path>
+                    </g>
+                  </svg></div>
+              </a><a target="_blank" rel="noopener" href="https://github.com/mayankagarwal09" class="social-icon"
+                aria-label="github"
+                style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle; margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                <div class="social-container"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"><svg class="social-svg"
+                    viewBox="0 0 64 64"
+                    style="border-radius: 50%; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; fill-rule: evenodd;">
+                    <g class="social-svg-background" style="transition: fill 170ms ease-in-out; fill: transparent;">
+                      <circle cx="32" cy="32" r="31"></circle>
+                    </g>
+                    <g class="social-svg-icon" style="transition: fill 170ms ease-in-out; fill: transparent;">
+                      <path
+                        d="M32,16c-8.8,0-16,7.2-16,16c0,7.1,4.6,13.1,10.9,15.2 c0.8,0.1,1.1-0.3,1.1-0.8c0-0.4,0-1.4,0-2.7c-4.5,1-5.4-2.1-5.4-2.1c-0.7-1.8-1.8-2.3-1.8-2.3c-1.5-1,0.1-1,0.1-1 c1.6,0.1,2.5,1.6,2.5,1.6c1.4,2.4,3.7,1.7,4.7,1.3c0.1-1,0.6-1.7,1-2.1c-3.6-0.4-7.3-1.8-7.3-7.9c0-1.7,0.6-3.2,1.6-4.3 c-0.2-0.4-0.7-2,0.2-4.2c0,0,1.3-0.4,4.4,1.6c1.3-0.4,2.6-0.5,4-0.5c1.4,0,2.7,0.2,4,0.5c3.1-2.1,4.4-1.6,4.4-1.6 c0.9,2.2,0.3,3.8,0.2,4.2c1,1.1,1.6,2.5,1.6,4.3c0,6.1-3.7,7.5-7.3,7.9c0.6,0.5,1.1,1.5,1.1,3c0,2.1,0,3.9,0,4.4 c0,0.4,0.3,0.9,1.1,0.8C43.4,45.1,48,39.1,48,32C48,23.2,40.8,16,32,16z">
+                      </path>
+                    </g>
+                    <g class="social-svg-mask" style="transition: fill 170ms ease-in-out; fill: rgb(254, 254, 254);">
+                      <path
+                        d="M0,0v64h64V0H0z M37.1,47.2c-0.8,0.2-1.1-0.3-1.1-0.8c0-0.5,0-2.3,0-4.4c0-1.5-0.5-2.5-1.1-3 c3.6-0.4,7.3-1.7,7.3-7.9c0-1.7-0.6-3.2-1.6-4.3c0.2-0.4,0.7-2-0.2-4.2c0,0-1.3-0.4-4.4,1.6c-1.3-0.4-2.6-0.5-4-0.5 c-1.4,0-2.7,0.2-4,0.5c-3.1-2.1-4.4-1.6-4.4-1.6c-0.9,2.2-0.3,3.8-0.2,4.2c-1,1.1-1.6,2.5-1.6,4.3c0,6.1,3.7,7.5,7.3,7.9 c-0.5,0.4-0.9,1.1-1,2.1c-0.9,0.4-3.2,1.1-4.7-1.3c0,0-0.8-1.5-2.5-1.6c0,0-1.6,0-0.1,1c0,0,1,0.5,1.8,2.3c0,0,0.9,3.1,5.4,2.1 c0,1.3,0,2.3,0,2.7c0,0.4-0.3,0.9-1.1,0.8C20.6,45.1,16,39.1,16,32c0-8.8,7.2-16,16-16c8.8,0,16,7.2,16,16 C48,39.1,43.4,45.1,37.1,47.2z">
+                      </path>
+                    </g>
+                  </svg></div>
+              </a><a target="_blank" rel="noopener" href="pierrelucproulx@gmail.com" class="social-icon"
+                aria-label="email"
+                style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle; margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                <div class="social-container"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"><svg class="social-svg"
+                    viewBox="0 0 64 64"
+                    style="border-radius: 50%; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; fill-rule: evenodd;">
+                    <g class="social-svg-background" style="transition: fill 170ms ease-in-out; fill: transparent;">
+                      <circle cx="32" cy="32" r="31"></circle>
+                    </g>
+                    <g class="social-svg-icon" style="transition: fill 170ms ease-in-out; fill: transparent;">
+                      <path d="M17,22v20h30V22H17z M41.1,25L32,32.1L22.9,25H41.1z M20,39V26.6l12,9.3l12-9.3V39H20z">
+                      </path>
+                    </g>
+                    <g class="social-svg-mask" style="transition: fill 170ms ease-in-out; fill: rgb(254, 254, 254);">
+                      <path
+                        d="M41.1,25H22.9l9.1,7.1L41.1,25z M44,26.6l-12,9.3l-12-9.3V39h24V26.6z M0,0v64h64V0H0z M47,42H17V22h30V42z">
+                      </path>
+                    </g>
+                  </svg></div>
+              </a><a target="_blank" rel="noopener" href="https://www.facebook.com/CallmePL2001/" class="social-icon"
+                aria-label="facebook"
+                style="display: inline-block; width: 50px; height: 50px; position: relative; overflow: hidden; vertical-align: middle; margin-left: 10px; margin-right: 10px; margin-bottom: 10px;">
+                <div class="social-container"
+                  style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"><svg class="social-svg"
+                    viewBox="0 0 64 64"
+                    style="border-radius: 50%; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; fill-rule: evenodd;">
+                    <g class="social-svg-background" style="transition: fill 170ms ease-in-out; fill: transparent;">
+                      <circle cx="32" cy="32" r="31"></circle>
+                    </g>
+                    <g class="social-svg-icon" style="transition: fill 170ms ease-in-out; fill: transparent;">
+                      <path
+                        d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z">
+                      </path>
+                    </g>
+                    <g class="social-svg-mask" style="transition: fill 170ms ease-in-out; fill: rgb(254, 254, 254);">
+                      <path
+                        d="M0,0v64h64V0H0z M39.6,22l-2.8,0c-2.2,0-2.6,1.1-2.6,2.6V28h5.3l-0.7,5.3h-4.6V47h-5.5V33.3H24V28h4.6V24 c0-4.6,2.8-7,6.9-7c2,0,3.6,0.1,4.1,0.2V22z">
+                      </path>
+                    </g>
+                  </svg></div>
+              </a></div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +260,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+
+</body>
+
 </html>

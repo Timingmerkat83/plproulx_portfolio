@@ -1,0 +1,10 @@
+.social {
+  display: flex;
+}
+.social-icon:hover {
+  background-color: blue;
+}
+
+h1 {
+  color: blue;
+}

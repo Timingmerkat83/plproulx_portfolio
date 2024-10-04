@@ -1,4 +1,12 @@
 {
-    "name": "Your Name",
-    "roles": ["a Developer", "a Freelancer"]
+  "name": "Pierre-Luc Proulx",
+  "roles": ["un animateur 2D", "un animateur 3D", "un codeur"],
+  "colors": {
+    "favoriteColor": "#3498db",
+    "roleColors": {
+      "un animateur 2D": "#e74c3c",
+      "un animateur 3D": "#2ecc71",
+      "un codeur": "#f39c12"
+    }
+  }
 }

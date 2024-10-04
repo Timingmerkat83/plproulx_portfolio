@@ -1,39 +1,34 @@
 {
-    "logo" : {
-        "source": "images/logo.png",
-        "height" : 45,
-        "width" : 50
+  "logo": {
+    "source": "images/LogoPL.png",
+    "height": 45,
+    "width": 50
+  },
+  "sections": [
+    {
+      "title": "Accueil",
+      "href": "/"
     },
-    "sections": [
-        {
-            "title": "Home",
-            "href": "/"
-        },
-        {
-            "title": "About",
-            "href": "/about"
-        },
-        {
-            "title": "Skills",
-            "href": "/skills"
-        },
-        {
-            "title": "Education",
-            "href": "/education"
-        },
-        {
-            "title": "Experience",
-            "href": "/experience"
-        },
-        {
-            "title": "Projects",
-            "href": "/projects"
-        },
-        {
-            "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
-            "type": "link"
-        }
-    ]
-
+    {
+      "title": "Un peu sur moi",
+      "href": "/about"
+    },
+    {
+      "title": "Compétences",
+      "href": "/skills"
+    },
+    {
+      "title": "Éducation",
+      "href": "/education"
+    },
+    {
+      "title": "Projets",
+      "href": "/projects"
+    },
+    {
+      "title": "CV",
+      "href": "https://drive.google.com/file/d/1pxmDFmQ243p4ravfpPyy6uUchRYI4w1_/view?usp=sharing",
+      "type": "link"
+    }
+  ]
 }
