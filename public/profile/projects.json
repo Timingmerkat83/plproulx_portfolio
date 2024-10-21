@@ -43,8 +43,8 @@
       "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
       "links": [
         {
-          "text": "GitHub",
-          "href": "https://github.com/mayankagarwal09/QuietHours-Android"
+          "text": "Picture folder",
+          "href": "project1.html"
         }
       ],
       "tags": ["Java", "Android", "Alarm Manager", "VIT"]
