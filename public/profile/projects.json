@@ -56,23 +56,18 @@
       "tags": ["Illustrator", "Adobe"]
     },
     {
-      "title": "MVVM Sample App",
-      "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
+      "title": "Option de tuer",
+      "bodyText": "- Histoire interactif Web",
       "links": [
         {
-          "text": "GitHub",
-          "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
+          "text": "Site du jeu",
+          "href": "https://timingmerkat83.github.io/Vous-etes-le-heros-Option-de-tuer/"
         }
       ],
       "tags": [
-        "Kotlin",
-        "Android",
-        "MVVM",
-        "Room",
-        "Coroutines",
-        "Flow",
-        "Hilt-Dagger",
-        "NetworkBoundResource"
+        "JavaScript",
+        "HTML",
+        "CSS"
       ]
     },
     {
